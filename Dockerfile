@@ -13,5 +13,5 @@ RUN apt-get update && apt-get install software-properties-common python-software
     apt-get -y update
 RUN apt-get install python-pip python-dev build-essential -y  
 RUN pip install boto && pip install boto3 && pip install awscli   
-
+RUN mkdir /root/.aws
 
