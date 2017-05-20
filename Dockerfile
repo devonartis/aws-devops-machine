@@ -5,7 +5,7 @@
 ############################################################
 
 FROM ubuntu
-Maintainer Devon Artis <devon@devonartis.com>
+Maintainer T.Devon Artis <troin.artis@gmail.com>
 
 
 RUN apt-get update && apt-get install curl -y &&  apt-get install software-properties-common python-software-properties -y && \
